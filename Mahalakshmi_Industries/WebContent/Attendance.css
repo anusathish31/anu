@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+#Employee {
+	font-family: "Arial";
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#Employee td, #Employee th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#Employee tr:hover {
+	background-color: #ddd;
+}
+
+#Employee th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: centre;
+	background-color: silver;
+	color: white;
+}
